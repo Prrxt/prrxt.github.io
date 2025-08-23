@@ -1,8 +1,4 @@
 [build]
   base = "app"
   command = "next build"
-  publish = "app" # plugin handles Next.js output
-
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  publish = "app"

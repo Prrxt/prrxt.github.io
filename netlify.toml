@@ -1,7 +1,7 @@
 [build]
-  base = "app"                       # your Next.js folder
+  base = "app/app"                     # inner app folder
   command = "npm install && npm run build"
-  publish = "app/.netlify"           # a folder different from base for Netlify output
+  publish = ".netlify"                 # relative to base, plugin will populate it
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

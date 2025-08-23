@@ -4,21 +4,9 @@
 # ---------------------------
 
 [build]
-  # Path to your Next.js app folder
-  base = "app"
-
-  # Build command
+  base = "app"                      # your Next.js folder
   command = "npm install && npm run build"
-
-  # Publish directory — plugin handles SSR output
-  publish = "app"
-
-  # Clear any cached previous settings to avoid UI overrides
-  publishOrigin = "config"
-  commandOrigin = "config"
-  baseOrigin = "config"
-
-# Enable the Netlify Next.js plugin
+  publish = "."                     # <--- current folder (inside base)
+  
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  inputs = {}

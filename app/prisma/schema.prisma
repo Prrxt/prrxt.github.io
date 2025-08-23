@@ -1,0 +1,26 @@
+
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/dillon_mia_wedding/app/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model RSVP {
+  id               String   @id @default(cuid())
+  guestName        String
+  email            String
+  phone            String?
+  attendanceStatus String   // "attending" | "not-attending" | "maybe"
+  guestCount       Int      @default(1)
+  mealPreference   String?  // "vegetarian" | "vegan" | "gluten-free" | "no-restrictions"
+  dietaryRestrictions String?
+  message          String?
+  createdAt        DateTime @default(now())
+  
+  @@map("rsvps")
+}

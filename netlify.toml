@@ -1,12 +1,7 @@
-# ---------------------------
-# Netlify build config for Next.js
-# Works with SSR/API routes or static export
-# ---------------------------
-
 [build]
-  base = "app"                      # your Next.js folder
+  base = "app"                       # your Next.js folder
   command = "npm install && npm run build"
-  publish = "."                     # <--- current folder (inside base)
-  
+  publish = "app/.netlify"           # a folder different from base for Netlify output
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"

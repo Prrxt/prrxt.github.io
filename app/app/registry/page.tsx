@@ -4,45 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { AmazonRegistryLinkButton, FindOnAmazonButton } from '@/components/client-buttons'
 
-const wishlistItems = [
-  {
-    category: "Home Décor",
-    items: [
-      { name: "Vintage Gothic Mirror", price: "$180", description: "Ornate black mirror with intricate detailing" },
-      { name: "Dark Crystal Candelabras", price: "$120", description: "Set of 3 black metal candelabras with crystal accents" },
-      { name: "Victorian-style Wall Sconces", price: "$200", description: "Pair of elegant gothic wall lighting fixtures" },
-      { name: "Black Velvet Throw Pillows", price: "$60", description: "Set of 4 luxurious velvet pillows in deep purple and black" }
-    ]
-  },
-  {
-    category: "Kitchen & Dining",
-    items: [
-      { name: "Black Stoneware Dinnerware Set", price: "$250", description: "12-piece matte black ceramic dinnerware" },
-      { name: "Gothic Wine Goblets", price: "$80", description: "Set of 6 ornate black and silver wine glasses" },
-      { name: "Cast Iron Dutch Oven", price: "$150", description: "Professional-grade black enamel cookware" },
-      { name: "Copper Moscow Mule Mugs", price: "$90", description: "Set of 4 blackened copper cocktail mugs" }
-    ]
-  },
-  {
-    category: "Bedroom & Bath",
-    items: [
-      { name: "Egyptian Cotton Sheet Set", price: "$200", description: "Luxurious deep purple or black sheets, king size" },
-      { name: "Plush Bath Towel Set", price: "$120", description: "Hotel-quality towels in charcoal or deep plum" },
-      { name: "Essential Oil Diffuser", price: "$75", description: "Modern black ceramic aromatherapy diffuser" },
-      { name: "Silk Pillowcases", price: "$85", description: "Set of 2 mulberry silk pillowcases in dark colors" }
-    ]
-  },
-  {
-    category: "Experiences & Memories",
-    items: [
-      { name: "Wine Tasting Experience", price: "$300", description: "Private wine tasting for two at local gothic winery" },
-      { name: "Professional Photo Session", price: "$500", description: "Couples photography session in atmospheric locations" },
-      { name: "Gothic Architecture Tour", price: "$200", description: "Guided tour of historic gothic buildings and sites" },
-      { name: "Date Night Fund", price: "Any amount", description: "Contribution towards romantic dinners and adventures" }
-    ]
-  }
-]
-
 export default function RegistryPage() {
   return (
     <div className="min-h-screen py-16 px-4">
@@ -55,7 +16,7 @@ export default function RegistryPage() {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Help us create our perfect gothic sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
+            Help us create our perfect sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
           </p>
         </div>
 

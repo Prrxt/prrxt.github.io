@@ -1,11 +1,6 @@
-
-import { Gift, Heart, Star } from 'lucide-react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { AmazonRegistryLinkButton, FindOnAmazonButton } from '@/components/client-buttons'
-
-const wishlistItems = [
-  ]
+import { Gift, Heart } from 'lucide-react'
+import { Card, CardContent } from '@/components/ui/card'
+import { AmazonRegistryLinkButton } from '@/components/client-buttons'
 
 export default function RegistryPage() {
   return (
@@ -39,46 +34,6 @@ export default function RegistryPage() {
               <AmazonRegistryLinkButton />
             </CardContent>
           </Card>
-        </div>
-
-        {/* Wishlist Categories */}
-        <div className="space-y-8">
-          {wishlistItems.map((category, categoryIndex) => (
-            <div key={categoryIndex}>
-              <div className="flex items-center mb-6">
-                <Star className="w-6 h-6 text-accent mr-3" />
-                <h2 className="gothic-title text-3xl font-bold text-primary">
-                  {category.category}
-                </h2>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {category.items.map((item, itemIndex) => (
-                  <Card 
-                    key={itemIndex} 
-                    className="gothic-card border-border hover:border-accent/50 transition-all duration-300 hover:shadow-xl group"
-                  >
-                    <CardHeader className="pb-4">
-                      <div className="flex justify-between items-start">
-                        <CardTitle className="gothic-title text-lg text-foreground group-hover:text-accent transition-colors">
-                          {item.name}
-                        </CardTitle>
-                        <Badge variant="secondary" className="bg-primary/20 text-primary border-primary/30">
-                          {item.price}
-                        </Badge>
-                      </div>
-                    </CardHeader>
-                    <CardContent className="pt-0">
-                      <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
-                        {item.description}
-                      </p>
-                      <FindOnAmazonButton itemName={item.name} />
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          ))}
         </div>
 
         {/* Thank You Message */}

@@ -4,6 +4,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { AmazonRegistryLinkButton, FindOnAmazonButton } from '@/components/client-buttons'
 
+const wishlistItems = [
+  ]
+
 export default function RegistryPage() {
   return (
     <div className="min-h-screen py-16 px-4">
@@ -16,7 +19,7 @@ export default function RegistryPage() {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Help us create our perfect sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
+            Help us create our perfect gothic sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
           </p>
         </div>
 

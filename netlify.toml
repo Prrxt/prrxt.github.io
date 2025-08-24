@@ -1,7 +1,7 @@
 [build]
   base = "app/app"
   command = "npm run build"
-  publish = "app/app/.next"  # let plugin handle conversion
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

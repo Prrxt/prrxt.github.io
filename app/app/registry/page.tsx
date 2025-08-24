@@ -23,7 +23,6 @@ export default function RegistryPage() {
           <Card className="gothic-card border-border hover:border-primary/50 transition-colors">
             <CardContent className="p-6 text-center">
               <div className="flex items-center justify-center mb-4">
-                <Heart className="w-8 h-8 text-accent mr-3 fill-current" />
                 <h2 className="gothic-title text-2xl font-semibold text-foreground">
                   Amazon Wedding Registry
                 </h2>

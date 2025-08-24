@@ -17,7 +17,7 @@ export default function HomePage() {
             </h1>
             <div className="w-32 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-8"></div>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Together we walk into the darkness and light
+              Join us to celebrate our love
             </p>
           </div>
 
@@ -46,56 +46,6 @@ export default function HomePage() {
                 View Registry
               </Button>
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="gothic-title text-4xl md:text-5xl font-bold text-primary mb-4">
-              Our Story
-            </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto"></div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="gothic-card border-border hover:border-primary/50 transition-colors">
-              <CardContent className="p-6 text-center">
-                <Heart className="w-12 h-12 text-primary mb-4 mx-auto" />
-                <h3 className="gothic-title text-xl font-semibold text-foreground mb-3">
-                  Two Souls Unite
-                </h3>
-                <p className="text-muted-foreground">
-                  Our love story began in the shadows and bloomed into something eternal and beautiful.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="gothic-card border-border hover:border-primary/50 transition-colors">
-              <CardContent className="p-6 text-center">
-                <Calendar className="w-12 h-12 text-accent mb-4 mx-auto" />
-                <h3 className="gothic-title text-xl font-semibold text-foreground mb-3">
-                  A Dark Romance
-                </h3>
-                <p className="text-muted-foreground">
-                  We found light in each other's darkness, creating a bond that transcends the ordinary.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="gothic-card border-border hover:border-primary/50 transition-colors">
-              <CardContent className="p-6 text-center">
-                <MapPin className="w-12 h-12 text-primary mb-4 mx-auto" />
-                <h3 className="gothic-title text-xl font-semibold text-foreground mb-3">
-                  Forever Begins
-                </h3>
-                <p className="text-muted-foreground">
-                  Join us as we celebrate our eternal commitment in the heart of Atlanta.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>

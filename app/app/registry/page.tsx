@@ -14,7 +14,7 @@ export default function RegistryPage() {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Help us create our perfect gothic sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
+            Help us create our perfect sanctuary together. Your thoughtful gifts will help us start our new chapter in style.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function RegistryPage() {
                 </h2>
               </div>
               <p className="text-muted-foreground mb-6">
-                For your convenience, we've also created an Amazon registry with additional items and easy shipping options.
+                For your convenience, we've created an Amazon registry with a variety of gifts and easy shipping options.
               </p>
               <AmazonRegistryLinkButton />
             </CardContent>

@@ -13,7 +13,7 @@ const faqData = [
       },
       {
         question: "What should I wear?",
-        answer: "We're embracing a gothic/alternative aesthetic, so feel free to dress in darker elegant tones. Think cocktail attire in deep purples, blacks, grays, or dark blues. Avoid bright colors like red or gold to match our theme."
+        answer: "Attire should be formal or semi-formal. No jeans, but don't feel obligated to dress up too much."
       },
       {
         question: "Will the ceremony be indoors or outdoors?",
@@ -30,7 +30,7 @@ const faqData = [
     questions: [
       {
         question: "When is the RSVP deadline?",
-        answer: "Please RSVP by September 24, 2026. This gives us enough time to finalize catering numbers and seating arrangements."
+        answer: "Please RSVP by August 1st, 2026. This gives us enough time to finalize catering numbers and seating arrangements."
       },
       {
         question: "Can I bring a plus-one?",
@@ -38,7 +38,7 @@ const faqData = [
       },
       {
         question: "Can I bring my children?",
-        answer: "We love your little ones, but we've planned an adults-only celebration to create a certain atmosphere. We hope you'll use this as an opportunity for a special night out!"
+        answer: "We've planned an adults-only celebration to create a certain atmosphere. We hope you'll use this as an opportunity for a special night out!"
       },
       {
         question: "What if I have dietary restrictions?",
@@ -49,10 +49,6 @@ const faqData = [
   {
     category: "Travel & Accommodations",
     questions: [
-      {
-        question: "Are you providing transportation?",
-        answer: "Transportation details will be confirmed once we finalize our venue. If needed, we'll arrange shuttles from major hotel locations to the venue."
-      },
       {
         question: "Where should I stay in Atlanta?",
         answer: "We're working on securing room blocks at select hotels with group rates. Check our Location page for recommended areas and we'll share booking codes once available."
@@ -72,15 +68,11 @@ const faqData = [
     questions: [
       {
         question: "Will there be an open bar?",
-        answer: "Yes! We plan to have a full bar with cocktails, wine, and beer. We'll also have signature cocktails that reflect our gothic theme."
+        answer: "Beer and wine will be provided, drink in moderation."
       },
       {
         question: "What's the schedule for the day?",
-        answer: "A detailed timeline will be provided closer to the date, but expect a ceremony followed by cocktail hour, dinner, and dancing into the evening."
-      },
-      {
-        question: "Will there be music and dancing?",
-        answer: "Absolutely! We'll have music that reflects our alternative style, and we encourage everyone to join us on the dance floor."
+        answer: "A detailed timeline will be provided closer to the date, but expect a ceremony followed by cocktail hour and dinner."
       },
       {
         question: "Can I take photos during the ceremony?",
@@ -93,7 +85,7 @@ const faqData = [
     questions: [
       {
         question: "Do you have a wedding registry?",
-        answer: "Yes! Check out our Registry page for our wishlist and Amazon registry link. We've curated items that reflect our gothic aesthetic and help us create our perfect home together."
+        answer: "Yes! Check out our Registry page for our wishlist and Amazon registry link."
       },
       {
         question: "What if I prefer to give cash?",
@@ -101,31 +93,10 @@ const faqData = [
       },
       {
         question: "Should I bring gifts to the wedding?",
-        answer: "For convenience, we recommend having gifts shipped directly to us or bringing cards to the wedding. We'll have a secure card box at the reception."
+        answer: "For convenience, we recommend having gifts shipped directly to us or bringing cards to the wedding. If you wish to bring gifts, we will provide a spot for them."
       }
     ]
   },
-  {
-    category: "Special Requests",
-    questions: [
-      {
-        question: "I have mobility concerns. Will the venue be accessible?",
-        answer: "Accessibility is important to us. Once we confirm our venue, we'll provide detailed accessibility information. Please contact us if you have specific needs."
-      },
-      {
-        question: "Can I request a song for the reception?",
-        answer: "We love song requests that fit our alternative/gothic theme! You can include requests in your RSVP or email them to us directly."
-      },
-      {
-        question: "What if I need to change my RSVP?",
-        answer: "Life happens! Please email us at dillonandmiawedding@gmail.com as soon as possible if you need to update your RSVP status."
-      },
-      {
-        question: "Will you have a live stream for those who can't attend?",
-        answer: "We're considering options for remote viewing for loved ones who can't be there in person. More details will be available as we get closer to the date."
-      }
-    ]
-  }
 ]
 
 export default function FAQPage() {

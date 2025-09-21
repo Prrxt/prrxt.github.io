@@ -31,17 +31,16 @@ export default function LocationPage() {
             <CardContent className="text-center">
               <div className="space-y-4">
                 <h3 className="gothic-title text-xl font-semibold text-foreground">
-                  Venue Selection in Progress
+                  Westside Warehouse
                 </h3>
                 <p className="text-muted-foreground">
-                  We're currently finalizing our perfect gothic venue in Atlanta. 
-                  Details will be updated here as soon as we've made our selection.
+                  996 Huff Rd NW, Atlanta, GA 30318
                 </p>
                 <div className="bg-muted/30 rounded-lg p-4 max-w-md mx-auto">
                   <div className="flex items-center justify-center space-x-4 text-sm">
                     <div className="flex items-center space-x-2">
                       <Clock className="w-4 h-4 text-accent" />
-                      <span className="text-foreground">October 24, 2026</span>
+                      <span className="text-foreground">October 16, 2026</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <MapPin className="w-4 h-4 text-accent" />

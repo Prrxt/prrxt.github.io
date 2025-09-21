@@ -25,7 +25,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center space-x-4 mb-6">
               <Calendar className="w-6 h-6 text-accent" />
               <span className="gothic-title text-2xl font-semibold text-foreground">
-                October 24, 2026
+                October 16, 2026
               </span>
             </div>
             <div className="flex items-center justify-center space-x-4">

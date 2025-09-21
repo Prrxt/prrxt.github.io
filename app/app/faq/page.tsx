@@ -9,7 +9,7 @@ const faqData = [
     questions: [
       {
         question: "When and where is the wedding?",
-        answer: "Our wedding will take place on October 24, 2026, in Atlanta, Georgia. We're currently finalizing our venue selection and will share specific location details once confirmed."
+        answer: "Our wedding will take place on October 16, 2026, at Westside Warehouse in Atlanta, GA."
       },
       {
         question: "What should I wear?",
@@ -17,11 +17,11 @@ const faqData = [
       },
       {
         question: "Will the ceremony be indoors or outdoors?",
-        answer: "This will depend on our final venue selection. We'll update this information once we've confirmed our location. Rest assured, we'll have contingency plans for any weather."
+        answer: "The ceremony will be held indoors, with a cocktail hour taking place outside on the back patio."
       },
       {
         question: "What time should I arrive?",
-        answer: "Detailed timing will be provided with your invitation and on this website once we finalize our venue. We recommend arriving 15-30 minutes before the ceremony begins."
+        answer: "The ceremony will be starting at 5 pm. We recommend arriving 30 minutes before the ceremony begins."
       }
     ]
   },
@@ -30,7 +30,7 @@ const faqData = [
     questions: [
       {
         question: "When is the RSVP deadline?",
-        answer: "Please RSVP by August 1st, 2026. This gives us enough time to finalize catering numbers and seating arrangements."
+        answer: "Please RSVP by August 1st, 2026. This gives us enough time to finalize catering numbers and take care of other necessary planning."
       },
       {
         question: "Can I bring a plus-one?",
@@ -55,11 +55,11 @@ const faqData = [
       },
       {
         question: "How far is the venue from the airport?",
-        answer: "Atlanta's Hartsfield-Jackson airport is generally 20-45 minutes from most locations in the city, depending on traffic and your destination."
+        answer: "The venue is about 20-30 minutes from Hartsfield-Jackson Airport. Atlanta Traffic can be brutal sometimes, so your mileage may vary."
       },
       {
         question: "Is there parking at the venue?",
-        answer: "Parking information will be provided once we confirm our venue. Atlanta venues typically offer various parking options, and we'll ensure guests have clear directions."
+        answer: "Yes! There are 120 free parking spots on premise."
       }
     ]
   },

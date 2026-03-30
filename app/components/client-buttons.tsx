@@ -64,7 +64,7 @@ export function BrowseHotelsButton() {
 
 export function AmazonRegistryLinkButton() {
   const handleClick = () => {
-    window.open('https://amazon.com/wedding/registry', '_blank')
+    window.open('https://www.amazon.com/wedding/guest-view/1M1MNOY9T7AR5 ', '_blank')
   }
 
   return (

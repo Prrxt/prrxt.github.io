@@ -30,7 +30,7 @@ const faqData = [
     questions: [
       {
         question: "When is the RSVP deadline?",
-        answer: "Please RSVP by August 1st, 2026. This gives us enough time to finalize catering numbers and take care of other necessary planning."
+        answer: "Please RSVP by September 16th, 2026. This gives us enough time to finalize catering numbers and take care of other necessary planning."
       },
       {
         question: "Can I bring a plus-one?",

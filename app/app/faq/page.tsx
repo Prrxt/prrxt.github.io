@@ -51,7 +51,7 @@ const faqData = [
     questions: [
       {
         question: "Where should I stay in Atlanta?",
-        answer: "We're working on securing room blocks at select hotels with group rates. Check our Location page for recommended areas and we'll share booking codes once available."
+        answer: "Atlanta has numerous hotels available, please follow the link on the location page for help with booking."
       },
       {
         question: "How far is the venue from the airport?",
@@ -89,7 +89,7 @@ const faqData = [
       },
       {
         question: "What if I prefer to give cash?",
-        answer: "Your presence is the most important gift! If you prefer to give cash, cards can be placed in the card box at the reception. We also have a 'Date Night Fund' option on our registry."
+        answer: "Your presence is the most important gift! If you prefer to give cash, cards can be placed in the card box at the reception."
       },
       {
         question: "Should I bring gifts to the wedding?",

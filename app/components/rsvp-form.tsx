@@ -77,7 +77,7 @@ export default function RsvpForm() {
       <CardHeader>
         <CardTitle className="gothic-title text-2xl text-center text-primary flex items-center justify-center">
           <Heart className="w-6 h-6 mr-2 text-accent" />
-          Please Respond by September 24, 2026
+          Please Respond by September 16, 2026
         </CardTitle>
       </CardHeader>
       <CardContent>

@@ -149,7 +149,7 @@ export default function RsvpForm() {
 
           <div className="space-y-2">
             <Label htmlFor="message" className="text-foreground font-medium">
-              Message for the Happy Couple
+              Song Requests?
             </Label>
             <Textarea
               id="message"
